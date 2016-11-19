@@ -2,39 +2,69 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="#FFE9D6">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_weight="0.33">
+        android:layout_height="135dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="帳戶資訊"
-            android:id="@+id/textView15" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="0.33">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Text"
-            android:id="@+id/textView17" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="帳戶資訊"
+                android:id="@+id/textView15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="394dp"
+            android:layout_height="77dp"
+            android:weightSum="1"
+            android:background="#C7C7C7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="御山銀行"
+                android:id="@+id/textView17" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="帳戶餘額:$30000"
+                android:id="@+id/textView27" />
+
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.33">
+        android:layout_height="229dp">
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="51dp"
-            android:layout_weight="0.52"
+            android:layout_height="40dp"
             android:weightSum="1">
 
             <TextView
@@ -44,45 +74,70 @@
                 android:text="信用額度資訊"
                 android:id="@+id/textView16" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:weightSum="1"
+            android:background="#C7C7C7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="御山銀行"
+                android:id="@+id/textView18" />
+
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="223dp"
+                android:layout_width="271dp"
+                android:layout_height="102dp"
+                android:layout_gravity="center_vertical"
                 android:id="@+id/imageView3"
-                android:layout_gravity="bottom"
-                android:layout_weight="0.80" />
+                android:background="@drawable/progress" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:weightSum="1"
+            android:background="#C7C7C7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="聯幫銀行"
+                android:id="@+id/textView24" />
+
+            <ImageView
+                android:layout_width="271dp"
+                android:layout_height="102dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/imageView4"
+                android:background="@drawable/progress_2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1" >
 
         </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_gravity="bottom"
-        android:layout_height="84dp">
-
-        <Button
-            android:layout_width="87dp"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button6" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="87dp"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button7" />
-
-        <Button
-            android:layout_width="71dp"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button8" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button9" />
-    </LinearLayout>
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView6"
+        android:background="@drawable/icon_png"
+        android:layout_weight="0.33" />
 </LinearLayout>
