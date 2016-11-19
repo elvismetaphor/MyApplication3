@@ -29,10 +29,13 @@
             <Spinner
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:entries="@array/spn_list"
                 android:layout_marginTop="20dp"
+                android:spinnerMode="dialog"
+                android:prompt="@string/select_dialog_title1"
                 android:layout_marginLeft="20dp"
 
-                android:id="@+id/spinner" />
+                android:id="@+id/sp1" />
 
         </LinearLayout>
 
@@ -189,13 +192,13 @@
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="40dp"
-                android:id="@+id/trans_cstatus"
+                android:id="@+id/D1"
                 android:src="@drawable/card" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/trans_mstatus"
+                android:id="@+id/D2"
                 android:layout_marginLeft="20dp"
                 android:src="@drawable/money"
                 android:layout_weight="0.06" />
@@ -204,7 +207,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/trans_mbill"
+                android:id="@+id/D3"
                 android:src="@drawable/trans"
                 android:layout_weight="0.04" />
 
@@ -212,7 +215,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/trans_exrate"
+                android:id="@+id/D4"
                 android:src="@drawable/exchange_icon"
                 android:layout_weight="0.06" />
         </LinearLayout>
