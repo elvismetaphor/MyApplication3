@@ -24,7 +24,7 @@ public class ExchangeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exchange);
-        buttonexchange(findViewById(R.id.buttonexchange);
+        buttonexchange = (Button) findViewById(R.id.buttonexchange);
         mSpn1 = (Spinner) findViewById(R.id.coinspin);
         mSpn1.setOnItemSelectedListener(spnOnItemSelected);
         mSpn2 = (Spinner) findViewById(R.id.spinner2);

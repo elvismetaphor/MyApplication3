@@ -19,16 +19,10 @@ public class InfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
-<<<<<<< HEAD
         A1=(ImageView)findViewById(R.id.A1);
         A2=(ImageView)findViewById(R.id.A2);
         A3=(ImageView)findViewById(R.id.A3);
         A4=(ImageView)findViewById(R.id.A4);
-
-
-=======
->>>>>>> origin/master
-
         A1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

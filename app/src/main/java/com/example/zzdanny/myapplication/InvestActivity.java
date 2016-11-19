@@ -16,40 +16,40 @@ public class InvestActivity extends AppCompatActivity{
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_invest);
-
-
-        A1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-
-                Intent intent=new Intent(InvestActivity.this,InvestActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-        A2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(InvestActivity.this,ExchangeActivity.class);
-
-            }
-        });
-        A3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(InvestActivity.this,ExchangeActivity.class);
-
-            }
-        });
-        A4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(InvestActivity.this,ExchangeActivity.class);
-
-            }
-        });
+//        setContentView(R.layout.activity_invest);
+//
+//
+//        A1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//
+//                Intent intent=new Intent(InvestActivity.this,InvestActivity.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        });
+//        A2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(InvestActivity.this,ExchangeActivity.class);
+//
+//            }
+//        });
+//        A3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(InvestActivity.this,ExchangeActivity.class);
+//
+//            }
+//        });
+//        A4.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(InvestActivity.this,ExchangeActivity.class);
+//
+//            }
+//        });
 
 
 
