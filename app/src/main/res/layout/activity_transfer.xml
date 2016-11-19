@@ -53,28 +53,33 @@
                 android:text="轉入帳號"
                 android:textColor="#4C4C4C"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
-
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.42"
+    android:id="@+id/rgroup">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 android:text="最近匯入帳號"
-                android:id="@+id/radioButton"
+                android:id="@+id/rrecent"
                 android:textColor="#4C4C4C" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="聯絡人"
-                android:id="@+id/radioButton2"
+                android:id="@+id/rcontact"
                 android:textColor="#4C4C4C" />
-
+</RadioGroup>
             <Button
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:text="選擇"
-                android:id="@+id/button5"
+                android:id="@+id/easy"
                 android:background="@drawable/button_try" />
 
         </LinearLayout>
@@ -151,11 +156,11 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText11"
-                android:layout_weight="0.82"
-                android:layout_marginLeft="20dp"
+                android:inputType="numberPassword"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:layout_weight="0.19" />
 
-                />
         </LinearLayout>
 
         <Button
@@ -183,13 +188,13 @@
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="40dp"
-                android:id="@+id/imageView9"
+                android:id="@+id/trans_cstatus"
                 android:src="@drawable/card" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/imageView17"
+                android:id="@+id/trans_mstatus"
                 android:layout_marginLeft="20dp"
                 android:src="@drawable/money"
                 android:layout_weight="0.06" />
@@ -198,7 +203,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/imageView18"
+                android:id="@+id/trans_mbill"
                 android:src="@drawable/trans"
                 android:layout_weight="0.04" />
 
@@ -206,7 +211,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/imageView19"
+                android:id="@+id/trans_exrate"
                 android:src="@drawable/exchange_icon"
                 android:layout_weight="0.06" />
         </LinearLayout>
