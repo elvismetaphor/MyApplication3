@@ -15,6 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".InfoActivity"></activity>
         <activity android:name=".ExchangeActivity"></activity>
         <activity android:name=".TransferActivity"></activity>
@@ -22,6 +23,20 @@
         <activity android:name=".SaveActivity"></activity>
         <activity android:name=".CreditActivity"></activity>
 
+=======
+        <activity android:name=".InfoActivity">
+
+        </activity>
+        <activity android:name=".ExchangeActivity">
+
+        </activity>
+        <activity android:name=".TransferActivity">
+
+        </activity>
+        <activity android:name=".ExrateActivity">
+
+        </activity>
+>>>>>>> origin/master
         <activity
             android:name=".OverspendNotifySettings"
             android:label="@string/title_activity_overspend_notify_settings"
