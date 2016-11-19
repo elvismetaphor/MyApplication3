@@ -30,7 +30,6 @@ public class InfoActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(InfoActivity.this,CreditActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
         A2.setOnClickListener(new View.OnClickListener() {
@@ -38,7 +37,6 @@ public class InfoActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(InfoActivity.this,SaveActivity.class);
                 startActivity(intent);
-                finish();
 
             }
         });
@@ -47,7 +45,6 @@ public class InfoActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(InfoActivity.this,TransferActivity.class);
                 startActivity(intent);
-                finish();
 
             }
         });
@@ -56,7 +53,6 @@ public class InfoActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(InfoActivity.this,ExrateActivity.class);
                 startActivity(intent);
-                finish();
 
             }
         });
