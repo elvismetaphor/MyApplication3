@@ -1,6 +1,7 @@
 package com.example.zzdanny.myapplication;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 /**
@@ -16,18 +18,28 @@ import android.widget.Spinner;
 public class ExchangeActivity extends AppCompatActivity {
 
     Spinner mSpn1,mSpn2,mSpn3;
+    Button buttonexchange;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_exchange);
+        buttonexchange(findViewById(R.id.buttonexchange);
         mSpn1 = (Spinner) findViewById(R.id.coinspin);
         mSpn1.setOnItemSelectedListener(spnOnItemSelected);
         mSpn2 = (Spinner) findViewById(R.id.spinner2);
         mSpn2.setOnItemSelectedListener(spnOnItemSelected);
         mSpn3 = (Spinner) findViewById(R.id.spinner3);
         mSpn3.setOnItemSelectedListener(spnOnItemSelected);
+
+
+        buttonexchange.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ExchangeActivity.this,ExrateActivity.class));
+                finish();
+            }
+        });
 
 
     }
@@ -47,6 +59,7 @@ public class ExchangeActivity extends AppCompatActivity {
             // TODO Auto-generated method stub
         }
     };
+
 
     }
 

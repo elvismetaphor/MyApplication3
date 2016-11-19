@@ -49,12 +49,18 @@
         android:layout_height="wrap_content"
         android:layout_weight="1.00">
 
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="預約轉匯"
+            android:id="@+id/ratebutton"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_gravity="center_horizontal|center_vertical"
         android:layout_height="88dp"
         android:weightSum="1">
 
@@ -62,14 +68,14 @@
             android:layout_width="75dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="40dp"
-            android:id="@+id/imageView12"
+            android:id="@+id/B1"
 
             android:src="@drawable/card" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/imageView5"
+            android:id="@+id/B2"
             android:layout_marginLeft="20dp"
             android:src="@drawable/money"
             android:layout_weight="0.06" />
@@ -78,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
-            android:id="@+id/imageView11"
+            android:id="@+id/B3"
             android:src="@drawable/trans"
             android:layout_weight="0.04" />
 
@@ -86,7 +92,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
-            android:id="@+id/imageView10"
+            android:id="@+id/B4"
             android:src="@drawable/exchange_icon"
             android:layout_weight="0.06" />
     </LinearLayout>

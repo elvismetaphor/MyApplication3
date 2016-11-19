@@ -30,7 +30,7 @@
             android:entries="@array/spn_list"
             android:spinnerMode="dialog"
             android:prompt="@string/select_dialog_title1"
-            android:id="@+id/coinspin" />
+            android:id="@+id/spinner2" />
 
     </LinearLayout>
 
@@ -55,7 +55,7 @@
             android:spinnerMode="dialog"
             android:prompt="@string/select_dialog_title2"
 
-            android:id="@+id/spinner2" />
+            android:id="@+id/coinspin" />
 
     </LinearLayout>
 
@@ -140,7 +140,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="預約換幣"
-        android:id="@+id/button10"
+        android:id="@+id/buttonexchange"
         android:layout_gravity="center_horizontal" />
 
     <LinearLayout
@@ -148,6 +148,44 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_height="88dp"
+            android:weightSum="1" >
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/card" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView5"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/money"
+                android:layout_weight="0.06" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/imageView6"
+                android:src="@drawable/trans"
+                android:layout_weight="0.04" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/imageView7"
+                android:src="@drawable/exchange_icon"
+                android:layout_weight="0.06" />
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

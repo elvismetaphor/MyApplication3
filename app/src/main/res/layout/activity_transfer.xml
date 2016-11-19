@@ -50,7 +50,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/textView14"
                 android:layout_gravity="center_horizontal"
-                android:text="轉入帳號"
+                android:text="轉入類別"
                 android:textColor="#4C4C4C"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 <RadioGroup
@@ -80,7 +80,8 @@
                 android:layout_marginLeft="20dp"
                 android:text="選擇"
                 android:id="@+id/easy"
-                android:background="@drawable/button_try" />
+                android:background="@drawable/button_try"
+                android:layout_weight="0.20" />
 
         </LinearLayout>
 
@@ -106,7 +107,7 @@
                 android:layout_marginLeft="20dp"
 
                 android:layout_height="40dp"
-                android:id="@+id/editText9"
+                android:id="@+id/edtaccount"
                 android:layout_weight="0.80" />
 
         </LinearLayout>
@@ -167,7 +168,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="轉帳"
-            android:id="@+id/button4"
+            android:id="@+id/buttontransfer"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/button_try" />
 

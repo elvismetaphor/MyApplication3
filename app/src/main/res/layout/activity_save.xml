@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="424dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="御山銀行"
+            android:id="@+id/button" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"></LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="聯幫銀行"
+            android:id="@+id/button2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:weightSum="1" >
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/imageView8"
+            android:src="@drawable/card" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView9"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/money"
+            android:layout_weight="0.06" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageView10"
+            android:src="@drawable/trans"
+            android:layout_weight="0.04" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageView11"
+            android:src="@drawable/exchange_icon"
+            android:layout_weight="0.06" />
+    </LinearLayout>
+</LinearLayout>
