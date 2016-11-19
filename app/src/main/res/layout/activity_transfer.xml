@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FFE9D6">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="410dp">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -21,10 +20,11 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
 
-                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/textView10"
                 android:layout_gravity="center_vertical"
-                android:text="轉出帳號" />
+                android:text="轉出帳號"
+                android:textColor="#4C4C4C"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <Spinner
                 android:layout_width="wrap_content"
@@ -48,22 +48,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="41dp"
                 android:layout_marginLeft="20dp"
-                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/textView14"
                 android:layout_gravity="center_horizontal"
-                android:text="轉入帳號" />
+                android:text="轉入帳號"
+                android:textColor="#4C4C4C"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="最近匯入帳號"
-                android:id="@+id/radioButton" />
+                android:id="@+id/radioButton"
+                android:textColor="#4C4C4C" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="聯絡人"
-                android:id="@+id/radioButton2" />
+                android:id="@+id/radioButton2"
+                android:textColor="#4C4C4C" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -90,16 +93,16 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/textView11"
                 android:layout_gravity="center_horizontal"
-                android:text="轉入帳號" />
+                android:text="轉入帳號"
+                android:textColor="#4C4C4C" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_marginLeft="20dp"
 
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:id="@+id/editText9"
-                android:layout_weight="0.82"
-                android:background="#ffffff" />
+                android:layout_weight="0.80" />
 
         </LinearLayout>
 
@@ -117,7 +120,8 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/textView12"
                 android:layout_gravity="center_horizontal"
-                android:text="金額" />
+                android:text="金額"
+                android:textColor="#4C4C4C" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -125,8 +129,7 @@
                 android:id="@+id/editText10"
                 android:layout_marginLeft="20dp"
 
-                android:layout_weight="0.82"
-                android:background="#ffffff" />
+                android:layout_weight="0.82" />
         </LinearLayout>
 
         <LinearLayout
@@ -142,7 +145,8 @@
                 android:layout_height="41dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/textView13"
-                android:text="帳戶密碼" />
+                android:text="帳戶密碼"
+                android:textColor="#4C4C4C" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -151,7 +155,7 @@
                 android:layout_weight="0.82"
                 android:layout_marginLeft="20dp"
 
-                android:background="#ffffff" />
+                />
         </LinearLayout>
 
         <Button
@@ -161,6 +165,51 @@
             android:id="@+id/button4"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/button_try" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:weightSum="1" >
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/imageView9"
+                android:src="@drawable/card" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView17"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/money"
+                android:layout_weight="0.06" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/imageView18"
+                android:src="@drawable/trans"
+                android:layout_weight="0.04" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/imageView19"
+                android:src="@drawable/exchange_icon"
+                android:layout_weight="0.06" />
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="select_region_dialog_title1">Spinner 銀行買入</string>
+    <string name="select_region_dialog_title2">Spinner 兌換幣值</string>
+    <string name="select_region_dialog_title3">Spinner 提撥%數</string>
+
+    <string-array name="spn_list">
+        <item>御山銀行 00359383924534</item>
+        <item>聯幫銀行 00353383527543</item>
+
+    </string-array>
+    <string-array name="spn_list2">
+        <item>日圓</item>
+        <item>美元</item>
+        <item>港幣</item>
+        <item>新加坡幣</item>
+        <item>英鎊</item>
+    </string-array>
+
+    <string-array name="spn_list3">
+        <item>2%</item>
+        <item>3%</item>
+        <item>4%</item>
+        <item>5%</item>
+    </string-array>
+
 </resources>
