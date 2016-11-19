@@ -15,10 +15,18 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".InfoActivity"></activity>
-        <activity android:name=".ExchangeActivity"></activity>
-        <activity android:name=".TransferActivity"></activity>
-        <activity android:name=".ExrateActivity"></activity>
+        <activity android:name=".InfoActivity">
+
+        </activity>
+        <activity android:name=".ExchangeActivity">
+
+        </activity>
+        <activity android:name=".TransferActivity">
+
+        </activity>
+        <activity android:name=".ExrateActivity">
+
+        </activity>
         <activity
             android:name=".OverspendNotifySettings"
             android:label="@string/title_activity_overspend_notify_settings"
