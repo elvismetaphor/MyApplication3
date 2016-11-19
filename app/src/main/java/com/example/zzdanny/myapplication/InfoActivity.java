@@ -23,49 +23,37 @@ public class InfoActivity extends AppCompatActivity {
         A2=(ImageView)findViewById(R.id.A2);
         A3=(ImageView)findViewById(R.id.A3);
         A4=(ImageView)findViewById(R.id.A4);
+
         A1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
                 Intent intent=new Intent(InfoActivity.this,CreditActivity.class);
                 startActivity(intent);
             }
         });
+
         A2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(InfoActivity.this,SaveActivity.class);
                 startActivity(intent);
-
             }
         });
+
         A3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(InfoActivity.this,TransferActivity.class);
                 startActivity(intent);
-
             }
         });
+
         A4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(InfoActivity.this,ExrateActivity.class);
                 startActivity(intent);
-
             }
         });
-
-
-
-
-
-
-
-
     }
-
-
-
-    }
+}

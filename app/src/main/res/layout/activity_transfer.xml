@@ -178,47 +178,48 @@
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#e32020">
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="89dp"
-            android:weightSum="1" >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/D1"
+            android:src="@drawable/card" />
 
-            <ImageView
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="40dp"
-                android:id="@+id/D1"
-                android:src="@drawable/card" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/D2"
+            android:src="@drawable/money" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/D2"
-                android:layout_marginLeft="20dp"
-                android:src="@drawable/money"
-                android:layout_weight="0.06" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/D3"
+            android:src="@drawable/trans" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/D3"
-                android:src="@drawable/trans"
-                android:layout_weight="0.04" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/D4"
-                android:src="@drawable/exchange_icon"
-                android:layout_weight="0.06" />
-        </LinearLayout>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/D4"
+            android:src="@drawable/exchange_icon" />
     </LinearLayout>
+
 
 </LinearLayout>

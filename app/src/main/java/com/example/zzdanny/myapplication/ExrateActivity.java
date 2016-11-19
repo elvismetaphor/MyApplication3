@@ -28,48 +28,44 @@ public class ExrateActivity extends AppCompatActivity {
         ratebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
               startActivity(new Intent(ExrateActivity.this,ExchangeActivity.class));
-
             }
         });
+
         B1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
                 Intent intent=new Intent(ExrateActivity.this,CreditActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
+
         B2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(ExrateActivity.this,SaveActivity.class);
                 startActivity(intent);
                 finish();
-
             }
         });
+
         B3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(ExrateActivity.this,TransferActivity.class);
                 startActivity(intent);
                 finish();
-
             }
         });
+
         B4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(ExrateActivity.this,ExrateActivity.class);
                 startActivity(intent);
                 finish();
-
             }
         });
-
     }
 }

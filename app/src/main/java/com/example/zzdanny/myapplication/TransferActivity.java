@@ -139,22 +139,21 @@ public class TransferActivity extends AppCompatActivity {
         D1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
                 Intent intent=new Intent(TransferActivity.this,CreditActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
+
         D2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(TransferActivity.this,SaveActivity.class);
                 startActivity(intent);
                 finish();
-
             }
         });
+
         D3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -164,20 +163,17 @@ public class TransferActivity extends AppCompatActivity {
 
             }
         });
+
         D4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(TransferActivity.this,ExrateActivity.class);
                 startActivity(intent);
                 finish();
-
             }
         });
 
-
     }
-
-
 
     private AdapterView.OnItemSelectedListener spnOnItemSelected
             = new AdapterView.OnItemSelectedListener()
@@ -195,29 +191,25 @@ public class TransferActivity extends AppCompatActivity {
         }
     };
 
-
-
-
-
-            public RadioGroup.OnCheckedChangeListener listener = new RadioGroup.OnCheckedChangeListener() {
-                @Override
-                public void onCheckedChanged(RadioGroup group, int checkedId) {
-                    int p = group.indexOfChild((RadioButton) findViewById(checkedId));
-                    int count = group.getChildCount();
-                    switch (checkedId) {
-                        case R.id.rrecent:
-                            type = 1;
-                            Log.d("type", "" + type);
-                            break;
-                        case R.id.rcontact:
-                            type = 2;
-                            Log.d("type", "" + type);
-                            break;
-                    }
-                }
-
-            };
+    public RadioGroup.OnCheckedChangeListener listener = new RadioGroup.OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+            int p = group.indexOfChild((RadioButton) findViewById(checkedId));
+            int count = group.getChildCount();
+            switch (checkedId) {
+                case R.id.rrecent:
+                    type = 1;
+                    Log.d("type", "" + type);
+                    break;
+                case R.id.rcontact:
+                    type = 2;
+                    Log.d("type", "" + type);
+                    break;
+            }
         }
+
+    };
+}
 
 
 

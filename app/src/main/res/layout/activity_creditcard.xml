@@ -43,4 +43,48 @@
         android:text="富幫銀行"
         android:id="@+id/button13" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="110dp"
+        android:background="#e32020">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/A1"
+            android:src="@drawable/card" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/A2"
+            android:src="@drawable/money" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/A3"
+            android:src="@drawable/trans" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/A4"
+            android:src="@drawable/exchange_icon" />
+    </LinearLayout>
+
 </LinearLayout>
