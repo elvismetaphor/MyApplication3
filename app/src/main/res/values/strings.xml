@@ -2,9 +2,10 @@
     <string name="app_name">My Application</string>
     <string name="title_activity_overspend_notify_settings">信用卡超支通知設定</string>
     <string name="title_activity_connect_account">銀行帳號綁定</string>
-    <string name="select_dialog_title1">Spinner 銀行買入</string>
-    <string name="select_dialog_title2">Spinner 兌換幣值</string>
-    <string name="select_dialog_title3">Spinner 提撥%數</string>
+    <string name="select_dialog_title1"> 銀行買入</string>
+    <string name="select_dialog_title2"> 兌換幣值</string>
+    <string name="select_dialog_title3"> 提撥%數</string>
+    <string name="account_out">銀行帳號</string>
 
     <string-array name="spn_list">
         <item>御山銀行 00359383924534</item>
