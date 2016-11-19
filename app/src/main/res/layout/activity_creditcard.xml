@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="御山銀行"
+        android:id="@+id/button11" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="186dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="本期應付帳款總計"
+            android:id="@+id/textView25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="繳款截止日"
+            android:id="@+id/textView26"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="聯幫銀行"
+        android:id="@+id/button12" />
+
+    <Button
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="富幫銀行"
+        android:id="@+id/button13" />
+
+</LinearLayout>

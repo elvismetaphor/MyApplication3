@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_height="78dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="幣別選擇"
+            android:id="@+id/textView21" />
+
+        <Spinner
+            android:layout_width="251dp"
+            android:layout_height="50dp"
+            android:id="@+id/coinspin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_height="38dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="幣值"
+            android:id="@+id/textView22" />
+
+        <EditText
+            android:layout_width="221dp"
+            android:layout_height="match_parent"
+            android:id="@+id/editText13" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_height="51dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="新台幣"
+            android:id="@+id/textView23" />
+
+        <EditText
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText12" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="預約換幣"
+        android:id="@+id/button10" />
+
+</LinearLayout>

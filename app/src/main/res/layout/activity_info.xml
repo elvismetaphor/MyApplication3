@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="0.33">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="帳戶資訊"
+            android:id="@+id/textView15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView17" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_weight="0.52"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="信用額度資訊"
+                android:id="@+id/textView16" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="223dp"
+                android:id="@+id/imageView3"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.80" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="84dp">
+
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button6" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button7" />
+
+        <Button
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button9" />
+    </LinearLayout>
+</LinearLayout>
