@@ -17,12 +17,6 @@ public class InfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
-        A1=(Button)findViewById(R.id.button6);
-        A2=(Button)findViewById(R.id.button7);
-        A3=(Button)findViewById(R.id.button8);
-        A4=(Button)findViewById(R.id.button9);
-
-
 
         A1.setOnClickListener(new View.OnClickListener() {
             @Override
