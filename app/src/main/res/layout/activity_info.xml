@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1"
-    android:background="#FFE9D6">
+    android:weightSum="1">
 
     <LinearLayout
         android:orientation="vertical"
@@ -120,24 +119,56 @@
                 android:layout_width="271dp"
                 android:layout_height="102dp"
                 android:layout_gravity="center_vertical"
-                android:id="@+id/imageView4"
-                android:background="@drawable/progress_2" />
+                android:id="@+id/imageView4" />
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="1" >
-
-        </LinearLayout>
     </LinearLayout>
 
-    <ImageView
-        android:layout_width="380dp"
-        android:layout_marginTop="80dp"
-        android:layout_height="20dp"
-        android:id="@+id/imageView6"
-        android:background="@drawable/icon_png"
-        android:layout_weight="0.33" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.96">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:weightSum="1" >
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/imageView13"
+            android:src="@drawable/card" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView14"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/money"
+            android:layout_weight="0.06" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageView15"
+            android:src="@drawable/trans"
+            android:layout_weight="0.04" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageView16"
+            android:src="@drawable/exchange_icon"
+            android:layout_weight="0.06" />
+    </LinearLayout>
+
 </LinearLayout>

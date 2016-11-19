@@ -6,6 +6,7 @@
         <item name="colorPrimary">#E32020</item>
         <item name="colorPrimaryDark">#E32020</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">#c5c5c5</item>
 
     </style>
 

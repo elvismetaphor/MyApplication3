@@ -6,7 +6,9 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="69dp"></LinearLayout>
+        android:layout_height="69dp">
+
+    </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -19,11 +21,15 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="幣別選擇"
-            android:id="@+id/textView21" />
+            android:id="@+id/textView21"
+            android:textColor="#4C4C4C" />
 
         <Spinner
             android:layout_width="251dp"
             android:layout_height="50dp"
+            android:entries="@array/spn_list"
+            android:spinnerMode="dialog"
+            android:prompt="@string/select_dialog_title1"
             android:id="@+id/coinspin" />
 
     </LinearLayout>
@@ -32,19 +38,24 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_marginLeft="40dp"
-        android:layout_height="38dp">
+        android:layout_height="38dp" >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="幣值"
-            android:id="@+id/textView22" />
+            android:text="使用帳戶"
+            android:id="@+id/textView28"
+            android:textColor="#4C4C4C" />
 
-        <EditText
-            android:layout_width="221dp"
-            android:layout_height="match_parent"
-            android:id="@+id/editText13" />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/spn_list2"
+            android:spinnerMode="dialog"
+            android:prompt="@string/select_dialog_title2"
+
+            android:id="@+id/spinner2" />
 
     </LinearLayout>
 
@@ -52,25 +63,91 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_marginLeft="40dp"
-        android:layout_height="51dp">
+        android:layout_height="38dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="幣值"
+            android:id="@+id/textView22"
+            android:textColor="#4C4C4C" />
+
+        <EditText
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:id="@+id/editText13"
+            android:layout_weight="0.12" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_height="51dp"
+        android:weightSum="1">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="新台幣"
-            android:id="@+id/textView23" />
+            android:id="@+id/textView23"
+            android:textColor="#4C4C4C" />
 
         <EditText
-            android:layout_width="201dp"
+            android:layout_width="107dp"
             android:layout_height="wrap_content"
-            android:id="@+id/editText12" />
+            android:id="@+id/editText12"
+            android:layout_weight="0.10" />
+
     </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_height="38dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="提撥%數"
+            android:id="@+id/textView29"
+            android:textColor="#4C4C4C" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/spn_list3"
+            android:spinnerMode="dialog"
+            android:prompt="@string/select_dialog_title3"
+
+            android:id="@+id/spinner3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"></LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="預約換幣"
-        android:id="@+id/button10" />
+        android:id="@+id/button10"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
 
 </LinearLayout>
